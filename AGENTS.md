@@ -12,14 +12,15 @@ Docs et specs sont en **français** — suivre ce langage pour specs, comments d
 ## Commandes (depuis `evoluno/`)
 
 ```bash
-npm run dev      # serveur dev (Turbopack)
-npm run lint     # eslint uniquement
-npx tsc --noEmit # typecheck — pas de script npm dédié
-npm test         # tests unitaires (vitest)
-npm run build    # vérification finale
+npm run dev        # serveur dev (Turbopack)
+npm run lint       # eslint uniquement
+npx next typegen   # types Next générés (LayoutProps…) — requis avant tsc sur clone frais
+npx tsc --noEmit   # typecheck — pas de script npm dédié
+npm test           # tests unitaires (vitest)
+npm run build      # vérification finale
 ```
 
-- **Ordre de vérif : `lint → tsc --noEmit → npm test → build`.** Tests unitaires Vitest câblés (`src/lib/*.test.ts`) ; Playwright est prévu dans les specs, pas encore câblé.
+- **Ordre de vérif : `lint → next typegen → tsc --noEmit → npm test → build`.** Piège : `tsc` échoue sur un clone frais ou après `rm -rf .next` (types `LayoutProps`/`PageProps` absents) — `npx next typegen` les régénère sans build complet. Tests unitaires Vitest câblés (`src/lib/*.test.ts`) ; Playwright est prévu dans les specs, pas encore câblé.
 - **Base de données** : un conteneur Docker `postgres:16` (nom `evoluno-db`, identifiants dev) est requis pour `npx prisma migrate dev` — commande de démarrage dans `.env.example`. Copier `cp .env.example .env` puis y mettre `ENCRYPTION_SECRET_KEY` (`openssl rand -hex 32`) avant le premier lancement.
 - Package manager : **npm** (`package-lock.json`). Les specs disent `pnpm` — le lockfile a raison.
 - Pas de CI, pas de pre-commit. La vérification locale est tout ce qui existe.
