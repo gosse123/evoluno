@@ -1,0 +1,118 @@
+// prisma/schema.prisma
+// Source : specs/001-auth-profile/plan.md §3 (schéma initial approuvé)
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id            String         @id @default(uuid())
+  name          String?
+  email         String?        @unique
+  emailVerified DateTime?
+  image         String?
+  username      String         @unique
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+
+  accounts      Account[]
+  sessions      Session[]
+  profile       Profile?
+  techInterests UserTech[]
+
+  following     Follow[]       @relation("UserFollows")
+  followers     Follow[]       @relation("UserFollowedBy")
+
+  @@index([username])
+}
+
+model Account {
+  id                String   @id @default(uuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?  @db.Text
+  access_token      String?  @db.Text // Chiffré en AES-256-GCM
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?  @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model Session {
+  id           String   @id @default(uuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+enum CareerStatus {
+  STUDENT
+  JUNIOR
+  MID_LEVEL
+  SENIOR
+  AI_ENTHUSIAST
+  OTHER
+}
+
+model Profile {
+  id              String       @id @default(uuid())
+  userId          String       @unique
+  user            User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  displayName     String
+  bio             String?      @db.Text
+  locationCity    String?
+  locationCountry String?      // ex: "Burkina Faso", "Côte d'Ivoire", "Sénégal"
+  careerStatus    CareerStatus @default(JUNIOR)
+  openToWork      Boolean      @default(false)
+  githubUrl       String?
+  gitlabUrl       String?
+  portfolioUrl    String?
+
+  // Cache JSON des données publiques récupérées
+  githubStats     Json?        // { topLanguages: [...], publicReposCount: 3, highlights: [...] }
+  lastSyncedAt    DateTime?
+
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  @@index([locationCountry])
+  @@index([careerStatus])
+}
+
+model UserTech {
+  id          String   @id @default(uuid())
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name        String   // ex: "Python", "TypeScript", "Flutter"
+  level       String   @default("learning") // "learning", "practicing", "proficient"
+
+  @@unique([userId, name])
+  @@index([name])
+}
+
+model Follow {
+  followerId  String
+  followingId String
+  createdAt   DateTime @default(now())
+
+  follower    User     @relation("UserFollows", fields: [followerId], references: [id], onDelete: Cascade)
+  following   User     @relation("UserFollowedBy", fields: [followingId], references: [id], onDelete: Cascade)
+
+  @@id([followerId, followingId])
+  @@index([followerId])
+  @@index([followingId])
+}
