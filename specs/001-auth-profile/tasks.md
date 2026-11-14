@@ -12,10 +12,10 @@
 ---
 
 ## Phase 1 : Initialisation & Schéma de Données
-- [ ] T001: Initialiser le projet Next.js 15 avec TypeScript et Tailwind CSS (`pnpm create next-app`).
-- [ ] T002: Configurer Prisma ORM et PostgreSQL (variables d'environnement, client singleton `src/lib/prisma.ts`).
-- [ ] T003: Définir et exécuter la migration initiale pour `User`, `Account`, `Session`, `Profile`, `UserTech`, `Follow`.
-- [ ] T004: Créer et valider par test unitaire le module de chiffrement AES-256-GCM (`src/lib/crypto.ts`).
+- [x] T001: Initialiser le projet Next.js 15 avec TypeScript et Tailwind CSS (`pnpm create next-app`).
+- [x] T002: Configurer Prisma ORM et PostgreSQL (variables d'environnement, client singleton `src/lib/prisma.ts`).
+- [x] T003: Définir et exécuter la migration initiale pour `User`, `Account`, `Session`, `Profile`, `UserTech`, `Follow`.
+- [x] T004: Créer et valider par test unitaire le module de chiffrement AES-256-GCM (`src/lib/crypto.ts`).
 
 ## Phase 2 : Authentification & Sécurité OAuth
 - [ ] T005: Configurer Auth.js (NextAuth v5) avec PrismaAdapter et le provider GitHub OAuth.
