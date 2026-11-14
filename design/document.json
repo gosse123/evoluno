@@ -1,0 +1,3392 @@
+{
+  "document": {
+    "id": "0:0",
+    "name": "Evoluno Web Platform Desktop Suite",
+    "type": "DOCUMENT",
+    "children": [
+      {
+        "id": "0:1",
+        "name": "Desktop Screens 1280px (22 Views)",
+        "type": "CANVAS",
+        "children": [
+          {
+            "id": "frame_1",
+            "name": "Web Desktop — Page d'Accueil Publique (01_landing_page)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_1",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 0,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_1",
+                "name": "URL: https://evoluno.africa/",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/",
+                "absoluteBoundingBox": {
+                  "x": 380,
+                  "y": 10,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_1",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 40,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_1",
+                "name": "Content Layout (Page d'Accueil Publique)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_1",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Page d'Accueil Publique • Landing Page Web Publique",
+                "absoluteBoundingBox": {
+                  "x": 30,
+                  "y": 120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 0,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_2",
+            "name": "Web Desktop — Consentement OAuth GitHub (02_auth_github_consent)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_2",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 0,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_2",
+                "name": "URL: https://evoluno.africa/auth/github",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/auth/github",
+                "absoluteBoundingBox": {
+                  "x": 1820,
+                  "y": 10,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_2",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 40,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_2",
+                "name": "Content Layout (Consentement OAuth GitHub)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_2",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Consentement OAuth GitHub • Modal OAuth GitHub & Scopes",
+                "absoluteBoundingBox": {
+                  "x": 1470,
+                  "y": 120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 1440,
+              "y": 0,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_3",
+            "name": "Web Desktop — Onboarding Développeur (03_onboarding_wizard)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_3",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 0,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_3",
+                "name": "URL: https://evoluno.africa/onboarding",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/onboarding",
+                "absoluteBoundingBox": {
+                  "x": 3260,
+                  "y": 10,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_3",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 40,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_3",
+                "name": "Content Layout (Onboarding Développeur)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_3",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Onboarding Développeur • Wizard Multi-étapes Junior/Senior",
+                "absoluteBoundingBox": {
+                  "x": 2910,
+                  "y": 120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 2880,
+              "y": 0,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_4",
+            "name": "Web Desktop — Dashboard & Fil Social (04_feed_dashboard)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_4",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 1000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_4",
+                "name": "URL: https://evoluno.africa/feed",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/feed",
+                "absoluteBoundingBox": {
+                  "x": 380,
+                  "y": 1010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_4",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 1040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_4",
+                "name": "Content Layout (Dashboard & Fil Social)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 1100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_4",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Dashboard & Fil Social • Fil Principal 3 Colonnes Desktop",
+                "absoluteBoundingBox": {
+                  "x": 30,
+                  "y": 1120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 1000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_5",
+            "name": "Web Desktop — Compositeur de Publication (05_feed_composer_modal)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_5",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 1000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_5",
+                "name": "URL: https://evoluno.africa/feed/new",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/feed/new",
+                "absoluteBoundingBox": {
+                  "x": 1820,
+                  "y": 1010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_5",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 1040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_5",
+                "name": "Content Layout (Compositeur de Publication)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 1100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_5",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Compositeur de Publication • Modal Dépliée avec Éditeur Code",
+                "absoluteBoundingBox": {
+                  "x": 1470,
+                  "y": 1120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 1440,
+              "y": 1000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_6",
+            "name": "Web Desktop — Fil de Discussion & Revue (06_post_detail_thread)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_6",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 1000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_6",
+                "name": "URL: https://evoluno.africa/p/pr-104",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/p/pr-104",
+                "absoluteBoundingBox": {
+                  "x": 3260,
+                  "y": 1010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_6",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 1040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_6",
+                "name": "Content Layout (Fil de Discussion & Revue)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 1100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_6",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Fil de Discussion & Revue • Post Détaillé & Commentaires Pairs",
+                "absoluteBoundingBox": {
+                  "x": 2910,
+                  "y": 1120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 2880,
+              "y": 1000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_7",
+            "name": "Web Desktop — Catalogue Dépôts Open Source (07_projects_catalog)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_7",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 2000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_7",
+                "name": "URL: https://evoluno.africa/projects",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/projects",
+                "absoluteBoundingBox": {
+                  "x": 380,
+                  "y": 2010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_7",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 2040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_7",
+                "name": "Content Layout (Catalogue Dépôts Open Source)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 2100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_7",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Catalogue Dépôts Open Source • Grille & Matrice de Filtres",
+                "absoluteBoundingBox": {
+                  "x": 30,
+                  "y": 2120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 2000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_8",
+            "name": "Web Desktop — Fiche Dépôt & Issues (08_project_detail)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_8",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 2000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_8",
+                "name": "URL: https://evoluno.africa/projects/afriq-pay/sdk-python",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/projects/afriq-pay/sdk-python",
+                "absoluteBoundingBox": {
+                  "x": 1820,
+                  "y": 2010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_8",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 2040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_8",
+                "name": "Content Layout (Fiche Dépôt & Issues)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 2100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_8",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Fiche Dépôt & Issues • Dépôt, Charte IA & Issues Ouvertes",
+                "absoluteBoundingBox": {
+                  "x": 1470,
+                  "y": 2120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 1440,
+              "y": 2000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_9",
+            "name": "Web Desktop — Panneau « Je veux aider » (09_modal_help_action)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_9",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 2000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_9",
+                "name": "URL: https://evoluno.africa/projects/afriq-pay/sdk-python/contribute/issue-42",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/projects/afriq-pay/sdk-python/contribute/issue-42",
+                "absoluteBoundingBox": {
+                  "x": 3260,
+                  "y": 2010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_9",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 2040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_9",
+                "name": "Content Layout (Panneau « Je veux aider »)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 2100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_9",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Panneau « Je veux aider » • Slide-over Modal de Prise d'Issue",
+                "absoluteBoundingBox": {
+                  "x": 2910,
+                  "y": 2120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 2880,
+              "y": 2000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_10",
+            "name": "Web Desktop — Célébration Git Fusion (10_git_celebration_modal)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_10",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 3000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_10",
+                "name": "URL: https://evoluno.africa/celebration/pr-merge-104",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/celebration/pr-merge-104",
+                "absoluteBoundingBox": {
+                  "x": 380,
+                  "y": 3010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_10",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 3040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_10",
+                "name": "Content Layout (Célébration Git Fusion)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 3100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_10",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Célébration Git Fusion • Modal Webhook & Impact Social",
+                "absoluteBoundingBox": {
+                  "x": 30,
+                  "y": 3120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 3000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_11",
+            "name": "Web Desktop — Profil Vivant Développeur (11_developer_profile)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_11",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 3000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_11",
+                "name": "URL: https://evoluno.africa/@amadou-diallo",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/@amadou-diallo",
+                "absoluteBoundingBox": {
+                  "x": 1820,
+                  "y": 3010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_11",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 3040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_11",
+                "name": "Content Layout (Profil Vivant Développeur)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 3100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_11",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Profil Vivant Développeur • Vue Publique & Métriques Git",
+                "absoluteBoundingBox": {
+                  "x": 1470,
+                  "y": 3120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 1440,
+              "y": 3000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_12",
+            "name": "Web Desktop — Contributions & Recommandations (12_profile_contributions)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_12",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 3000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_12",
+                "name": "URL: https://evoluno.africa/@amadou-diallo/contributions",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/@amadou-diallo/contributions",
+                "absoluteBoundingBox": {
+                  "x": 3260,
+                  "y": 3010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_12",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 3040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_12",
+                "name": "Content Layout (Contributions & Recommandations)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 3100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_12",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Contributions & Recommandations • Preuves de Travail & Avis Maintainers",
+                "absoluteBoundingBox": {
+                  "x": 2910,
+                  "y": 3120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 2880,
+              "y": 3000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_13",
+            "name": "Web Desktop — Paramètres du Profil (13_profile_edit_desktop)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_13",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 4000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_13",
+                "name": "URL: https://evoluno.africa/settings/profile",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/settings/profile",
+                "absoluteBoundingBox": {
+                  "x": 380,
+                  "y": 4010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_13",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 4040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_13",
+                "name": "Content Layout (Paramètres du Profil)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 4100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_13",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Paramètres du Profil • Formulaire & Disponibilité Pro",
+                "absoluteBoundingBox": {
+                  "x": 30,
+                  "y": 4120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 4000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_14",
+            "name": "Web Desktop — Entraide Humaine — Index (14_help_forum_index)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_14",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 4000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_14",
+                "name": "URL: https://evoluno.africa/entraide",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/entraide",
+                "absoluteBoundingBox": {
+                  "x": 1820,
+                  "y": 4010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_14",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 4040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_14",
+                "name": "Content Layout (Entraide Humaine — Index)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 4100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_14",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Entraide Humaine — Index • Questions Techniques & Tags",
+                "absoluteBoundingBox": {
+                  "x": 1470,
+                  "y": 4120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 1440,
+              "y": 4000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_15",
+            "name": "Web Desktop — Détail Question & Solution Validée (15_help_question_detail)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_15",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 4000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_15",
+                "name": "URL: https://evoluno.africa/entraide/questions/q-9841",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/entraide/questions/q-9841",
+                "absoluteBoundingBox": {
+                  "x": 3260,
+                  "y": 4010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_15",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 4040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_15",
+                "name": "Content Layout (Détail Question & Solution Validée)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 4100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_15",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Détail Question & Solution Validée • Q&A avec Solution Éprouvée",
+                "absoluteBoundingBox": {
+                  "x": 2910,
+                  "y": 4120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 2880,
+              "y": 4000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_16",
+            "name": "Web Desktop — Formulaire Poser une Question (16_help_ask_question)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_16",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 5000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_16",
+                "name": "URL: https://evoluno.africa/entraide/ask",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/entraide/ask",
+                "absoluteBoundingBox": {
+                  "x": 380,
+                  "y": 5010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_16",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 5040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_16",
+                "name": "Content Layout (Formulaire Poser une Question)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 5100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_16",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Formulaire Poser une Question • Éditeur Markdown & Dépôt Lié",
+                "absoluteBoundingBox": {
+                  "x": 30,
+                  "y": 5120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 5000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_17",
+            "name": "Web Desktop — Tableau des Opportunités (17_opportunities_board)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_17",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 5000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_17",
+                "name": "URL: https://evoluno.africa/opportunites",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/opportunites",
+                "absoluteBoundingBox": {
+                  "x": 1820,
+                  "y": 5010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_17",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 5040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_17",
+                "name": "Content Layout (Tableau des Opportunités)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 5100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_17",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Tableau des Opportunités • Stages Rémunérés en FCFA",
+                "absoluteBoundingBox": {
+                  "x": 1470,
+                  "y": 5120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 1440,
+              "y": 5000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_18",
+            "name": "Web Desktop — Fiche Offre & Entreprise (18_opportunity_detail)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_18",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 5000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_18",
+                "name": "URL: https://evoluno.africa/opportunites/opp-304",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/opportunites/opp-304",
+                "absoluteBoundingBox": {
+                  "x": 3260,
+                  "y": 5010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_18",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 5040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_18",
+                "name": "Content Layout (Fiche Offre & Entreprise)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 5100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_18",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Fiche Offre & Entreprise • Détail du Poste & Prérequis Git",
+                "absoluteBoundingBox": {
+                  "x": 2910,
+                  "y": 5120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 2880,
+              "y": 5000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_19",
+            "name": "Web Desktop — Modal Candidature 1 Clic (19_opportunity_apply_modal)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_19",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 6000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_19",
+                "name": "URL: https://evoluno.africa/opportunites/opp-304/apply",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/opportunites/opp-304/apply",
+                "absoluteBoundingBox": {
+                  "x": 380,
+                  "y": 6010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_19",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 6040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_19",
+                "name": "Content Layout (Modal Candidature 1 Clic)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 6100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_19",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Modal Candidature 1 Clic • Postuler via Profil Vivant",
+                "absoluteBoundingBox": {
+                  "x": 30,
+                  "y": 6120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 6000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_20",
+            "name": "Web Desktop — Centre de Notifications (20_notifications_center)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_20",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 6000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_20",
+                "name": "URL: https://evoluno.africa/notifications",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/notifications",
+                "absoluteBoundingBox": {
+                  "x": 1820,
+                  "y": 6010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_20",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 6040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_20",
+                "name": "Content Layout (Centre de Notifications)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 1440,
+                  "y": 6100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_20",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Centre de Notifications • Alertes Fusions & Mentions",
+                "absoluteBoundingBox": {
+                  "x": 1470,
+                  "y": 6120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 1440,
+              "y": 6000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_21",
+            "name": "Web Desktop — Palette de Commande (⌘K) (21_command_palette_modal)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_21",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 6000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_21",
+                "name": "URL: https://evoluno.africa/search",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/search",
+                "absoluteBoundingBox": {
+                  "x": 3260,
+                  "y": 6010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_21",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 6040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_21",
+                "name": "Content Layout (Palette de Commande (⌘K))",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 2880,
+                  "y": 6100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_21",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Palette de Commande (⌘K) • Recherche Rapide & Raccourcis",
+                "absoluteBoundingBox": {
+                  "x": 2910,
+                  "y": 6120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 2880,
+              "y": 6000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          },
+          {
+            "id": "frame_22",
+            "name": "Web Desktop — Webhooks & Intégrations Git (22_settings_git_webhooks)",
+            "type": "FRAME",
+            "blendMode": "PASS_THROUGH",
+            "children": [
+              {
+                "id": "chrome_22",
+                "name": "Browser Chrome (macOS 1280px)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 7000,
+                  "width": 1280,
+                  "height": 40
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.05,
+                      "g": 0.07,
+                      "b": 0.12,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "url_bar_22",
+                "name": "URL: https://evoluno.africa/settings/integrations",
+                "type": "TEXT",
+                "characters": "https://evoluno.africa/settings/integrations",
+                "absoluteBoundingBox": {
+                  "x": 380,
+                  "y": 7010,
+                  "width": 520,
+                  "height": 20
+                },
+                "style": {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": 400
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.6,
+                      "g": 0.7,
+                      "b": 0.85,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "header_22",
+                "name": "Desktop Topbar Navigation",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 7040,
+                  "width": 1280,
+                  "height": 60
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.04,
+                      "g": 0.055,
+                      "b": 0.1,
+                      "a": 0.95
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "content_body_22",
+                "name": "Content Layout (Webhooks & Intégrations Git)",
+                "type": "RECTANGLE",
+                "absoluteBoundingBox": {
+                  "x": 0,
+                  "y": 7100,
+                  "width": 1280,
+                  "height": 720
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.03,
+                      "g": 0.045,
+                      "b": 0.08,
+                      "a": 1
+                    }
+                  }
+                ]
+              },
+              {
+                "id": "label_screen_22",
+                "name": "Screen Metadata Label",
+                "type": "TEXT",
+                "characters": "EVOLUNO WEB • Webhooks & Intégrations Git • GitHub App & Préférences",
+                "absoluteBoundingBox": {
+                  "x": 30,
+                  "y": 7120,
+                  "width": 700,
+                  "height": 24
+                },
+                "style": {
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": 700
+                },
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "color": {
+                      "r": 0.06,
+                      "g": 0.72,
+                      "b": 0.5,
+                      "a": 1
+                    }
+                  }
+                ]
+              }
+            ],
+            "absoluteBoundingBox": {
+              "x": 0,
+              "y": 7000,
+              "width": 1280,
+              "height": 820
+            },
+            "backgroundColor": {
+              "r": 0.03,
+              "g": 0.045,
+              "b": 0.08,
+              "a": 1
+            },
+            "clipsContent": true,
+            "exportSettings": [
+              {
+                "format": "PNG",
+                "suffix": "@2x",
+                "constraint": {
+                  "type": "SCALE",
+                  "value": 2
+                }
+              }
+            ]
+          }
+        ],
+        "backgroundColor": {
+          "r": 0.02,
+          "g": 0.03,
+          "b": 0.05,
+          "a": 1
+        }
+      }
+    ]
+  },
+  "name": "Evoluno Web Platform (Desktop 1280px)",
+  "version": "2.0.0",
+  "lastModified": "2026-11-14T12:45:00Z",
+  "schemaVersion": 1
+}
